@@ -1,0 +1,92 @@
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: space-around; 
+    align-items: center; 
+}
+
+.left-section {
+    width: 20%;
+    height: 50%;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.right-section {
+    width: 50%;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.input-container {
+    position: relative;
+}
+
+.icon-container {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+
+.icon-container img {
+    width: 23px;
+    height: auto;
+}
+
+input {
+    width: 150%;
+    padding: 10px;
+    padding-left: 40px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+button {
+    background-color: blue;
+    text-align: center;
+    width: 70%;
+    color: white;
+    padding: 10px;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.social-icons {
+    text-align: center;
+}
+
+.circle {
+    display: inline-block;
+    margin: 0 5px;
+    border: 1px solid;
+    border-radius: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.circle img {
+    width: 26px;
+    height: 30px;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+
